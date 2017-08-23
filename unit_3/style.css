@@ -1,0 +1,68 @@
+body{
+	
+
+}
+html{
+
+}
+h1{
+	border: 2px solid black;
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+}
+li{
+	font-family: Raleway;
+	font-size: 12px;
+	list-style-type: none;
+	color: black;
+}
+img{
+	display: block;
+	margin: 0 auto;
+}
+nav{
+	border: 2px solid white;
+	display: flex;
+	justify-content: space-around;
+	width: 500px;
+	margin: 0 auto;
+}
+p{
+	text-align: center;
+	padding: 20px 40px;
+}
+#top-img{
+
+}
+
+.card-wrapper{
+		display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+
+}
+.card-img{
+	border: 2px solid black;
+	width:300px;
+	margin: 0 auto;
+	height: 300px;
+	margin: 10px;
+}
+.card-text{
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+}
+.descriptcopy {
+	background-color: orange;
+	display: flex;
+	margin: auto;	
+	justify-content: space-between;
+	align-items: baseline;
+}
+.description {
+	margin: auto;
+	width: 300px;
+	color: red;
+}
