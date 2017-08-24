@@ -1,11 +1,13 @@
 body{
 	
+	
 
 }
 html{
 
 }
 h1{
+	font-family: Raleway;
 	border: 2px solid black;
 	width: 500px;
 	text-align: center;
@@ -34,10 +36,11 @@ p{
 }
 #top-img{
 
+
 }
 
 .card-wrapper{
-		display: flex;
+	display: flex;
 	justify-content: space-around;
 	align-items: baseline;
 
@@ -55,7 +58,6 @@ p{
 	align-items: baseline;
 }
 .descriptcopy {
-	background-color: orange;
 	display: flex;
 	margin: auto;	
 	justify-content: space-between;
@@ -64,5 +66,5 @@ p{
 .description {
 	margin: auto;
 	width: 300px;
-	color: red;
+	color: black;
 }
