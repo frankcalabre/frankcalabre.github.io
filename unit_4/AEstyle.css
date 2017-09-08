@@ -1,39 +1,20 @@
-.contact_top {
-
-}
-.header_content {
-
-}
 .section1 {
+	background-color: red;
 
+}
+.section2{
+	background-color: blue;
+}
+.section3{
+	background-color: yellow;
 }
 .headernav {
-	
+	background-color: green;
+}
+#intro {
+	background-color: purple;
 }
 
-
-nav {
-	display: flex;
-	justify-content: space-around;
-}
-a{
-	display: flex;
-	object-position: left;
-}
-li{
-	list-style: none;
-}
-span{
-	font-weight: bold;
-}
-h2{
-	
-	display: inline-flex;
-	justify-content: space-around;
-}
-.icons {
-	display: flex;
-	justify-content: space-around;
-	align-items: baseline;
-
+h2,h3 {
+	color: blue;
 }
