@@ -1,20 +1,30 @@
 .section1 {
-	background-color: red;
+	width: 500px;
 
 }
+
 .section2{
-	background-color: blue;
+	
+	
 }
 .section3{
-	background-color: yellow;
+	
 }
 .headernav {
-	background-color: green;
+	
 }
-#intro {
-	background-color: purple;
+.intro {
+	
 }
 
 h2,h3 {
 	color: blue;
+}
+span {
+	font-weight: bold;
+}
+
+.cnbutton {
+	margin-left: 50px;
+	border: 1.5px pink solid;
 }
