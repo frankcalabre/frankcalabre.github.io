@@ -1,7 +1,5 @@
 * { margin:0; padding:0; box-sizing:border-box; }
-h2,h3 {
-	color: blue;
-}
+
 span {
 	font-weight: bold;
 }
@@ -53,15 +51,9 @@ body {
     clear: both;
     content: "";
 }
-
-<<<<<<< HEAD
-h2,h3 {
-	
-=======
 nav li {
     float: left;
     margin: 0 1em;
->>>>>>> 7408261d8adba2b1f59ee242bb2bf93fa6afb682
 }
 
 nav ul {
