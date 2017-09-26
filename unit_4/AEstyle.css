@@ -5,7 +5,7 @@ span {
 }
 
 .cnbutton {
-	margin: 0px 50px 0px 0px;
+	margin-left: 50px;
 	color: #fff;
 	background-color: coral;
 	text-decoration: none;
@@ -15,14 +15,11 @@ span {
 body {
     background: url(images/colorstrip.png), #eee;
     background-repeat: repeat-x;
-    padding-top: none;
+    padding-top: 8px;
 }
 
 .section1 {
     float: left;
-}
-.section1 a {
-	padding-left: 20px;
 }
 
 .section2 {
@@ -45,7 +42,7 @@ body {
 }
 
 .section3 > * {
-    width: 25%;
+    width: 33.33%;
     float: left;
 }
 
@@ -83,12 +80,4 @@ nav ul ul {
 	float: left;
 	width: 25%;
 	padding: 1em;
-}
-.products img {
-	width: 70%;
-
-}
-.hero {
-	width: 75%;
-	margin: 15px 150px 15px 150px;
 }
