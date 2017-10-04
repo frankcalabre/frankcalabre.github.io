@@ -15,7 +15,7 @@ span {
 body {
     background: url(images/colorstrip.png), #eee;
     background-repeat: repeat-x;
-    padding-top: none;
+    padding-top: 0;
 }
 
 .section1 {
@@ -32,6 +32,7 @@ body {
 .section3 {
     text-align: center;
     margin-top: 2em;
+    clear: both;
 }
 
 .section2 > * {
@@ -45,7 +46,8 @@ body {
 }
 
 .section3 > * {
-    width: 25%;
+    width: 27.33%;
+    margin: 3%;
     float: left;
 }
 
@@ -53,10 +55,17 @@ body {
     display: block;
     clear: both;
     content: "";
+    border-bottom: 2px solid rgba(0,0,0,.54);
 }
-nav li {
+.article {
+	border-bottom: 2px solid rgba(0,0,0,.54);
+}
+.headernav li {
     float: left;
     margin: 0 1em;
+}
+ul.clearfix {
+
 }
 
 nav ul {
@@ -67,13 +76,28 @@ nav ul ul {
     display: none;
 }
 
+#shoutout {
+	font-size: 60px;
+	font-family: Georgia;
+	color: #7594b7;
+}
+.shoutout a {
+	border: solid;
+}
+#save {
+	font-family: cursive;
+}
+#herobutton {
+	padding: 20px;
+}
+
 .section1 p {
     display: inline-block;
 }
 
 .wrapper {
     max-width: 1200px;
-    margin: auto;
+    margin: 9px auto 0;
     background: #fff;
     padding: 2em;
     box-shadow: 1px 1px 3px rgba(0,0,0,.25);
@@ -83,17 +107,45 @@ nav ul ul {
 	float: left;
 	width: 25%;
 	padding: 1em;
+	text-align: center;
 }
 .products img {
 	width: 70%;
 
 }
 .products a {
-	padding: 200px;
-	text-align: center;
-
+	padding: 5px;
+	border: solid;
+	background-color: red;
 }
 .hero {
-	width: 75%;
-	margin: 15px 150px 15px 150px;
+	width: 100%;
+	display: block;
+}
+header {
+    border-bottom: 2px solid rgba(0,0,0,.54);
+    padding: 1em 0;
+}
+
+#intro {
+    position: relative;
+    text-align: center;
+}
+
+#intro div {
+    position: absolute;
+    background: rgba(255,255,255,.5);
+    height: 100%;
+    padding: 2em;
+    right: 7em;
+    width: 20em;
+}
+.followus {
+	float: left;
+}
+.footernav
+ div {
+    display: inline-block;
+    vertical-align: top;
+    padding: 15px;
 }
