@@ -16,6 +16,7 @@ body {
     background: url(images/colorstrip.png), #eee;
     background-repeat: repeat-x;
     padding-top: 0;
+
 }
 
 .section1 {
@@ -63,6 +64,13 @@ body {
 .headernav li {
     float: left;
     margin: 0 1em;
+}
+.dropdown:hover {
+	background-color: red;
+}
+
+.dropdown:hover > ul {
+	display: block;
 }
 ul.clearfix {
 
@@ -141,11 +149,17 @@ header {
     width: 20em;
 }
 .followus {
-	float: left;
+	
 }
 .footernav
  div {
     display: inline-block;
     vertical-align: top;
     padding: 15px;
+    width: 19.5%;
+}
+
+
+#strip {
+	width: 100%;
 }
